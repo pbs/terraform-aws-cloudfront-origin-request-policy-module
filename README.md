@@ -38,10 +38,7 @@ module "cloudfront-origin-request-policy" {
   # query_strings         = ["example", "example2"]
 
   # Tagging Parameters
-  organization = var.organization
-  environment  = var.environment
-  product      = var.product
-  repo         = var.repo
+  product = var.product
 
   # Optional Parameters
 }
