@@ -6,7 +6,7 @@
 
 ```hcl
 module "cloudfront-origin-request-policy" {
-    source = "github.com/pbs/terraform-aws-cloudfront-origin-request-policy-module?ref=0.0.1"
+    source = "github.com/pbs/terraform-aws-cloudfront-origin-request-policy-module?ref=0.0.2"
 }
 ```
 
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "cloudfront-origin-request-policy" {
-  source = "github.com/pbs/terraform-aws-cloudfront-origin-request-policy-module?ref=0.0.1"
+  source = "github.com/pbs/terraform-aws-cloudfront-origin-request-policy-module?ref=0.0.2"
 
   # Optional Parameters
   # name = "custom-name"
@@ -48,7 +48,7 @@ module "cloudfront-origin-request-policy" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.1`
+`0.0.2`
 
 Note, however that subtrees can be altered as desired within repositories.
 
