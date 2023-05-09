@@ -1,7 +1,7 @@
 variable "product" {
   description = "Tag used to group resources according to application"
 
-  default = "example-tf-cloudfront-origin-request-policy-populated"
+  default = "cloudfront-origin-request-policy-module-populated"
 
   validation {
     condition     = can(regex("[a-z\\-]+", var.product))
